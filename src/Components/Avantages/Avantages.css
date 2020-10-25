@@ -1,0 +1,12 @@
+#avantages h2 span {
+  color: #004687;
+  font-weight: 600;
+}
+
+#avantages .section-box > div {
+  width: 25%;
+}
+
+#avantages .section-box > div:not(:last-child) {
+  border-right: 1.5px solid rgb(204, 204, 204);
+}

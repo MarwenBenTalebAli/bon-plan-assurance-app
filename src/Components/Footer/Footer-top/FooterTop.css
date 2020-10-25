@@ -1,0 +1,98 @@
+.footer-top {
+  background-color: #1e2069;
+  padding: 50px 0px;
+}
+
+.footer-top .text {
+  line-height: 1.5;
+  font-size: 11pt;
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.box .content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 28%;
+  background: #adcb53;
+  top: -10px;
+}
+
+.box a.text-white {
+  color: white;
+  text-decoration: none !important;
+}
+
+.box a.text-white:hover,
+.box a.text-white:active {
+  color: #adcb53 !important;
+}
+
+.footer-subscription-heading {
+  margin-bottom: 10px;
+}
+
+.footer-subscription-text {
+  margin-bottom: 24px;
+  font-size: 11pt;
+}
+
+.footer-input {
+  padding: 8px 24px;
+  border-radius: 2px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus {
+  color: #ffffff !important;
+  background-color: #748838 !important;
+  border-color: #748838 !important;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .footer-top .text {
+    font-size: 8pt;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .footer-input {
+    font-size: 10pt;
+    width: 60%;
+  }
+  .btn-outline {
+    padding: 8px 5px;
+    font-size: 10pt;
+  }
+  .footer-subscription-text {
+    font-size: 10pt;
+  }
+}

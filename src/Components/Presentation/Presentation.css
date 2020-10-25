@@ -1,0 +1,34 @@
+#presentation {
+  width: 100% !important;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+#presentation h2 {
+  color: #004687;
+  font-weight: 600;
+}
+
+#presentation .jumbotron {
+  background-color: #ffffff !important;
+}
+
+#presentation .section-title {
+  line-height: 1;
+}
+
+#presentation .text {
+  line-height: 1.2;
+  font-weight: 200;
+}
+
+#presentation .section-btn {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  font-size: 0;
+}
+#presentation .intro-image {
+  width: 100%;
+  height: auto;
+}

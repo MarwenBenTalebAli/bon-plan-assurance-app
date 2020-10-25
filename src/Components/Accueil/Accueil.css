@@ -1,0 +1,14 @@
+#accueil {
+  background-image: url("../../assets/images/bg/accueil-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 8vh;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #accueil {
+    background-position: 85%;
+  }
+}
